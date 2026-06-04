@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo img {
+    width: clamp(18.75px, calc(18.05px + 0.19vw), 21.65px);
+    height: auto;
+}
