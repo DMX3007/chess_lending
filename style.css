@@ -175,3 +175,79 @@ a {
     background-color: var(--color-button);
     color: var(--color-secondary);
 }
+
+.welcome-city {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55%;
+}
+
+.welcome-city__wrapper {
+    position: relative;
+    aspect-ratio: 1366 / 600;
+}
+
+.welcome-city__sun {
+    position: absolute;
+    top: -14%;
+    right: 2%;
+    width: 90%;
+    aspect-ratio: 1;
+    background: var(--color-accent) no-repeat center/cover;
+    z-index: 0;
+    border-radius: 100%;
+    mix-blend-mode: color-burn;
+    pointer-events: none;
+}
+
+.welcome-city__pawn {
+    position: absolute;
+    bottom: -108.5%;
+    right: 29px;
+    width: 11.16%;
+    z-index: 4;
+}
+
+.welcome-city__knight {
+    position: absolute;
+    bottom: -114%;
+    left: 31%;
+    width: 26%;
+    z-index: 4;
+}
+
+.welcome-city__queen {
+    position: absolute;
+    top: 50%;
+    right: 19%;
+    z-index: 1;
+    width: 20%;
+
+}
+
+.welcome-city__king {
+    position: absolute;
+    top: 82%;
+    left: 16%;
+    z-index: 1;
+    width: 18%;
+}
+
+.welcome-city__city {
+    position: absolute;
+    width: 218%;
+    pointer-events: none;
+    left: -96%;
+    z-index: 3;
+    top: 82%;
+}
+
+.welcome-city__countour {
+    position: absolute;
+    bottom: -115%;
+    left: -98%;
+    width: 217%;
+    pointer-events: none;
+    z-index: 4;
+}
